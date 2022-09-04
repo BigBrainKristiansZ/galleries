@@ -1,0 +1,54 @@
+
+body{
+    background: linear-gradient(to right, rgb(40, 156, 154), rgb(92, 32, 165)) ;
+}
+
+.bucky{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
+.zed{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+zed:hover {
+    animation: vibrate 0.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes vibrate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-1deg); }
+    20% { transform: rotate(1deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(-1deg); }
+    80% { transform: rotate(1deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-1deg); }
+  }
+
+
+.valorant{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.viper{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    border: 5px solid rgb(0, 0, 0);
+}
